@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+.homepage-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 55px;
+  gap: 20px;
+}
+
+.heading-text {
+  font-size: 40px;
+}
+
+.trip-search {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.trip-search-bar {
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #c4c4c4;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.trip-search-bar:focus {
+  outline: none;
+}
+
+.trip {
+  width: 56vw;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  gap: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.trip-first-image {
+  margin-left: 20px;
+}
+
+.trip-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.trip-title a {
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+  }
+
+.trip-category-item {
+  margin-right: 5px;
+}
+
+.trip-other-image-item {
+  margin-right: 20px;
+  border-radius: 12px;
+}
+
+.trip-first-image {
+  border-radius: 18px;
+}
